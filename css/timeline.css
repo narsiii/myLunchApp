@@ -1,0 +1,73 @@
+#timeline {
+    float: left;
+    border: 0.1px solid lightgray;
+    width: 100px;
+    height: 720px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container {
+    float: left;
+    border: 0.1px solid lightgray;
+    display: table;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 620px;
+    height: 720px;
+    background-color: lightgray;
+
+}
+
+.meeting {
+    border: 1px solid lightgray;
+    border-left: 4px solid darkblue;
+    height: 60px;
+    font-size: medium; 
+    background-color: white;
+    color: darkblue;
+}
+
+.main_meeting {
+    border: 1px solid lightgray;
+    border-left: 5px solid darkgreen;
+    height: 60px;
+    font-size: medium; 
+    background-color: white;
+    color: darkgreen;
+}
+
+.no_overlap {
+    border: 1px solid lightgray;
+    border-left: 5px solid black;
+    height: 60px;
+    font-size: medium; 
+    background-color: white;
+    color: black;
+}
+
+body {
+    font-family: 'Segoe UI Light';
+}
+
+.half_hr {
+    color: grey;
+    font-size: small;
+    text-align: right;
+    font-family: 'Segoe UI Light';
+    height: 30px;
+
+}
+
+.full_hr {
+    color: black;
+    font-size: medium;
+    text-align: right;
+    font-family: 'Segoe UI Semibold';
+    height: 30px;
+}
+
+.column {
+    float: left;
+    display: table-cell;
+}
